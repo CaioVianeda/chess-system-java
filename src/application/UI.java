@@ -8,6 +8,7 @@ import chess.ChessPosition;
 import chess.Color;
 
 public class UI {
+	
 		
 	public static ChessPosition readChessPosition(Scanner sc) {
 		
@@ -21,6 +22,7 @@ public class UI {
 			throw new InputMismatchException("Posição inválida! Valores validos de a1 à h8");
 		}
 	}
+	
 	
 	public static void printBoard(ChessPiece[][] pieces) {
 		
